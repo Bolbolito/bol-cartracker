@@ -8,7 +8,7 @@ local timerRemoveBlip = 300000 -- in MS
 
 local function startAnim(lib, anim)
 	local ped = PlayerPedId()
-	Citizen.CreateThread(function()
+	CreateThread(function()
 		RequestAnimDict(lib)
 		while not HasAnimDictLoaded( lib) do
 			Wait(1)
