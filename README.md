@@ -1,6 +1,7 @@
 QBCore Car Tracker
 
 Add this to your items.lua
+
     ["police_car_tracker"] = {
         ["name"] = "police_car_tracker",
         ["label"] = "Car Tracker",
